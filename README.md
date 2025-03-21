@@ -44,6 +44,6 @@ Evaluation Metric : Accuracy/Mean F1
 Evaluation Algorithm
 
 ## Solution:
-I developed an end-to-end pipeline that preprocesses the data (drops irrelevant columns, fills missing values, encodes categorical features, and scales numerical ones), trains a RandomForestClassifier, evaluates its performance, and generates test predictions mapped to "Yes" or "No". The final outputs include a submission file and saved model artifacts for future use.
+I developed an end-to-end pipeline that preprocesses the data (drops irrelevant columns, fills missing values, encodes categorical features, and scales numerical ones), trains a CatBoostClassifier, evaluates its performance, and generates test predictions mapped to "Yes" or "No". The final outputs include a submission file and saved model artifacts for future use.
 
 
